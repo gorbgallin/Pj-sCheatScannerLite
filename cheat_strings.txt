@@ -1,0 +1,241 @@
+triggerbot
+killaura
+selfdestruct
+strafe
+aimassist
+pingspoof
+meteorclient
+argon
+prestige
+s3lfd3struct
+playerreach
+jumpreset
+fakelag
+autoclick
+doomsdayclient.com
+hotbarswap
+switchdelay
+switch_delay_ms
+swapBackToOriginalSlot
+attackRegisteredThisClick
+findKnockbackSword
+lvstrng
+safe anchor
+safe_anchor
+auto crystal
+anchor macro
+auto totem
+autototem
+auto_hit_crystal
+auto_inventory_totem
+EndCrystalItemMixin
+isDeadBodyNearby
+POT_CHEATS
+getBlockBreakingCooldown
+Anch0r Macr0
+Aut0H1tCryst4l
+L3g1t R3t0t3m
+Anchor_Macro
+Auto_crystal
+hookCancelBlockBreaking
+canPlaceCrystalServer
+onSwapLastAttackedTicksReset
+redirectSelectedSlot
+getHandSwingDuration
+onBeginRenderTick
+PlayerMoveC2SPacketAccessor
+clickSimulation
+switchDelay
+switchChance
+placeChance
+glowstoneDelay
+glowstoneChance
+explodeDelay
+explodeChance
+explodeSlot
+antiWeakness
+damageTick
+breakChance
+breakDelay
+stopOnCrystal
+processCrystal
+swapToWeapon
+isObsidianOrBedrock
+isValidCrystalPosition
+processAnchorPvP
+isValidAnchorPosition
+AutoCrystal
+autocrystal
+auto crystal
+AutoHitCrystal
+autohitcrystal
+dontPlaceCrystal
+dontBreakCrystal
+canPlaceCrystalServer
+autoCrystalPlaceClock
+AutoAnchor
+autoanchor
+auto anchor
+DoubleAnchor
+safe anchor
+safeanchor
+anchortweaks
+anchor macro
+AutoTotem
+autototem
+auto totem
+InventoryTotem
+inventorytotem
+HoverTotem
+hover totem
+legittotem
+AutoPot
+autopot
+auto pot
+speedPotSlot
+strengthPotSlot
+AutoArmor
+autoarmor
+auto armor
+preventSwordBlockBreaking
+preventSwordBlockAttack
+AutoDoubleHand
+autodoublehand
+auto double hand
+AutoClicker
+AimAssist
+aimassist
+aim assist
+trigger bot
+shieldbreaker
+shield breaker
+axespam
+axe spam
+FakeLag
+ping spoof
+freecam
+Freecam
+FakeInv
+pushOutOfBlocks
+onPushOutOfBlocks
+webmacro
+web macro
+JumpReset
+Donut
+setBlockBreakingCooldown
+setItemUseCooldown
+onBlockBreaking
+invokeDoAttack
+invokeDoItemUse
+setSelectedSlot
+getSelectedSlot
+blockBreakingCooldown
+invokeOnMouseButton
+onSwapLastAttackedTicksReset
+getVisualAttackCooldownProgressPerTick
+getHandSwingDuration
+onBeginRenderTick
+PlayerMoveC2SPacketAccessor
+redirectSelectedSlot
+hookCancelBlockBreaking
+EndCrystalItemMixin
+endcrystalitemmixin
+WalksyCrystalOptimizerMod
+arrayOfString
+dqrkis
+StringObfuscator
+POT_CHEATS
+onShouldRenderBlockOutline
+predictCrystals
+noOffhandTotem
+getNearByCrystals
+slotExplode
+needToPlaceRails
+findTotemSlot
+activateOnRightClick
+crystalPlaceClock
+isDeadBodyNearby
+CrystalTwiceClock
+mainHandStack
+attackInAir
+attackOnJump
+onDestruct
+getGlowstoneChance
+isAutoCharge
+getPlaceChance
+getSwitchDelay
+getGlowstoneDelay
+getExplodeDelay
+getExplodeSlotIndex
+getPlaceDelayTicks
+getBreakDelayTicks
+getBreakChance
+isSpawnersEnabled
+isShulkersEnabled
+onModuleDisabled
+switchToBestTool
+switchToBestWeapon
+isLootProtect
+getMinHunger
+isTracersEnabled
+getSelectedBlocks
+isChestsEnabled
+inventoryToMenuSlot
+throwPearl
+isLeftHoldOnly
+Automatically switches to sword when hitting with totem
+Failed to switch to mace after axe!
+Breaking shield with axe...
+TrilliumSolutions
+self destruct
+ＡｕｔｏＣｒｙｓｔａｌ
+Ａｕｔｏ Ｃｒｙｓｔａｌ
+ＡｕｔｏＨｉｔＣｒｙｓｔａｌ
+Ａ．ｕｔｏ Ｃｒｙｓｔａｌ
+Ａ．ｕｔｏＣｒｙｓｔａｌＬＶ２
+Ａ．ｕｔｏ Ｈｉｔ Ｃｒｙｓｔａｌ
+ＡｕｔｏＡｎｃｈｏｒ
+Ａｕｔｏ Ａｎｃｈｏｒ
+ＤｏｕｂｌｅＡｎｃｈｏｒ
+Ｄｏｕｂｌｅ Ａｎｃｈｏｒ
+ＳａｆｅＡｎｃｈｏｒ
+Ｓａｆｅ Ａｎｃｈｏｒ
+Ａｎｃｈｏｒ Ｍａｃｒｏ
+Ａ．ｎｃｈｏｒ Ｍａｃｒｏ
+Ａ．ｎｃｈｏｒ Ｍａｃｒｏ Ｖ２
+Ｄ．ｏｕｂｌｅ Ａｎｃｈｏｒ
+Ｓ．ａｆｅＡｎｃｈｏｒ
+ＡｕｔｏＴｏｔｅｍ
+Ａｕｔｏ Ｔｏｔｅｍ
+Ａｕｔｏ Ｔｏｔｅｍ Ｈｉｔ
+Ａ．ｕｔｏ Ｔｏｔｅｍ Ｈｉｔ
+ＨｏｖｅｒＴｏｔｅｍ
+Ｈｏｖｅｒ Ｔｏｔｅｍ
+ＩｎｖｅｎｔｏｒｙＴｏｔｅｍ
+Ｈ．ｏｖｅｒ Ｔｏｔｅｍ
+Ａ．ｕｔｏ Ｉｎｖｅｎｔｏｒｙ Ｔｏｔｅｍ
+Ｆ．ｏｒｃｅ Ｔｏｔｅｍ
+Ｔ．ｏｔｅｍ Ｆｉｒｓｔ
+Ｔ．ｏｔｅｍ Ｏｆｆｈａｎｄ
+Ｔ．ｏｔｅｍ Ｓｌｏｔ
+Ｈ．ｏｖｅｒ
+Ｗ．ｏｒｋ Ｗｉｔｈ Ｔｏｔｅｍ
+ＡｕｔｏＤｏｕｂｌｅＨａｎｄ
+Ａｕｔｏ Ｄｏｕｂｌｅ Ｈａｎｄ
+Ａ．ｕｔｏ Ｄｏｕｂｌｅ Ｈａｎｄ
+Ａ．ｃｔｉｖａｔｅ Ｋｅｙ
+Ｗ．ｈｉｌｅ Ｕｓｅ
+Ｓ．ｔｏｐ ｏｎ Ｋｉｌｌ
+Ｃ．ｌｉｃｋ Ｓｉｍｕｌａｔｉｏｎ
+Ｓ．ｗｉｔｃｈ Ｄｅｌａｙ
+Ｓ．ｗｔｃｈ Ｃｈａｎｃｅ
+Ｐ．ｌａｃｅ Ｃｈａｎｃｅ
+Ｇ．ｌｏｗｓｔｏｎｅ Ｄｅｌａｙ
+Ｇ．ｌｏｗｓｔｏｎｅ Ｃｈａｎｃｅ
+Ｅ．ｘｐｌｏｄｅ Ｄｅｌａｙ
+Ｅ．ｘｐｌｏｄｅ Ｃｈａｎｃｅ
+Ｅ．ｘｐｌｏｄｅ Ｓｌｏｔ
+Ｏ．ｎｌｙ Ｏｗｎ
+Ｏ．ｎｌｙ Ｃｈａｒｇｅ
+Ｒ．ａｎｄｏｍ Ｇｌｏｗｓｔｏｎｅ
+
