@@ -1,28 +1,100 @@
 @echo off
-REM RunPjCheatScanner.bat - Lightweight bootstrapper that checks for .NET 6+ before launching Pj's Cheat Scanner
-REM If .NET is missing, offers to open the download page automatically
+setlocal
 
-REM Check if dotnet command is available
-dotnet --version >nul 2>&1
-if %errorlevel% neq 0 (
-    echo ============================================
-    echo   .NET 6.0+ Runtime NOT FOUND
-    echo ============================================
-    echo.
-    echo This tool requires the .NET 6.0 Desktop Runtime.
-    echo.
-    set /p openPage="Open download page now? (Y/N): "
-    if /I "%openPage%"=="Y" (
-        start https://dotnet.microsoft.com/en-us/download/dotnet/6.0
-    )
-    echo.
-    echo After installing .NET 6.0, re-run this tool.
-    pause
-    exit /b 1
+title Pj's Cheat Scanner - Lite
+cd /d "%~dp0"
+
+if not exist "PjCheatScannerLite.exe" (
+    echo [ERROR] PjCheatScannerLite.exe not found.
+    echo Make sure you extracted ALL files from the zip.
+    goto :PauseAndExit
 )
 
-REM .NET found - run the app
-echo Starting Pj's Cheat Scanner...
-dotnet "%~dp0PjCheatScannerLite.dll"
+echo Checking for .NET 6.0+ Runtime...
+
+where dotnet >nul 2>nul
+if errorlevel 1 goto :MissingDotNet
+
+dotnet --list-runtimes >nul 2>nul
+if errorlevel 1 goto :MissingDotNet
+
+goto :RunScanner
+
+:MissingDotNet
+echo.
+echo ============================================
+echo   .NET 6.0+ Runtime NOT FOUND
+echo ============================================
+echo.
+echo This tool requires the .NET 6.0 Desktop Runtime.
+echo.
+set /p CHOICE="Would you like to install it now? [Y/n]: "
+if /I "%CHOICE%"=="n" goto :DeclinedInstall
+if /I "%CHOICE%"=="no" goto :DeclinedInstall
+
+REM User wants to install
+echo.
+echo Checking for Windows Package Manager (winget)...
+where winget >nul 2>nul
+if errorlevel 1 goto :TryDirectDownload
+
+echo Found winget. Installing .NET 6 Desktop Runtime...
+echo This may take a few minutes... Please wait.
+winget install Microsoft.DotNet.DesktopRuntime.6 --silent --accept-source-agreements --accept-package-agreements
+if errorlevel 1 goto :TryDirectDownload
+
+echo.
+echo .NET 6 installed via winget!
+echo You may need to restart this tool if it still fails.
+goto :RunScanner
+
+:TryDirectDownload
+echo.
+echo Downloading .NET 6 Desktop Runtime installer...
+set "INSTALLER=%TEMP%\dotnet6-runtime-installer.exe"
+powershell -Command "Invoke-WebRequest -Uri 'https://aka.ms/dotnet/6.0/windowsdesktop-runtime-win-x64.exe' -OutFile '%INSTALLER%' -UseBasicParsing"
+if not exist "%INSTALLER%" goto :DownloadFailed
+
+echo Running installer silently...
+"%INSTALLER%" /install /quiet /norestart
+del /f "%INSTALLER%" >nul 2>nul
+
+echo.
+echo Installer finished. You may need to restart your PC.
+goto :RunScanner
+
+:DownloadFailed
+echo.
+echo [ERROR] Failed to download the installer automatically.
+echo Please install manually from: https://dotnet.microsoft.com/download/dotnet/6.0
+goto :PauseAndExit
+
+:DeclinedInstall
+echo.
+echo Install cancelled. You can download it manually from:
+echo https://dotnet.microsoft.com/download/dotnet/6.0
+goto :PauseAndExit
+
+:RunScanner
+echo.
+echo ============================================
+echo   Starting Pj's Cheat Scanner - Lite
+echo ============================================
+echo.
+echo TIP: For full memory access, close this window
+echo and right-click this file -^> "Run as administrator".
+echo.
+
+PjCheatScannerLite.exe
+if errorlevel 1 (
+    echo.
+    echo [Scanner exited with error %errorlevel%]
+)
+goto :PauseAndExit
+
+:PauseAndExit
+echo.
 pause
+endlocal
+exit /b
 
