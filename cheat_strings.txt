@@ -113,8 +113,6 @@ axespam
 axe spam
 FakeLag
 ping spoof
-freecam
-Freecam
 FakeInv
 pushOutOfBlocks
 onPushOutOfBlocks
