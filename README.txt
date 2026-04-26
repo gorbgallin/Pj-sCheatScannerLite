@@ -5,13 +5,18 @@
 
 ai carried this code im a chud
 
+Download .net 8: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.420-windows-x64-installer
+
+Exe: Just right click -> "run as administrator"
+
+
+Non-exe:
+
 STEP 1: EXTRACT
 Extract PjCheatScannerLite.zip to any folder.
 
 STEP 2: RUN
-Double-click "RunPjCheatScanner.bat"
 
-OR run as Administrator for full memory access:
 Right-click RunPjCheatScanner.bat -> "Run as administrator"
 
 STEP 3: RESULTS
