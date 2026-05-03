@@ -2,7 +2,6 @@ triggerbot
 killaura
 selfdestruct
 strafe
-aimassist
 pingspoof
 meteorclient
 prestige
