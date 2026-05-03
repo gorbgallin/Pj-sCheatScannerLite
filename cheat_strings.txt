@@ -118,7 +118,6 @@ onPushOutOfBlocks
 webmacro
 web macro
 JumpReset
-Donut
 setBlockBreakingCooldown
 setItemUseCooldown
 onBlockBreaking
