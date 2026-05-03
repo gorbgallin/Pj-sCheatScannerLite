@@ -5,7 +5,6 @@ strafe
 aimassist
 pingspoof
 meteorclient
-argon
 prestige
 s3lfd3struct
 playerreach
