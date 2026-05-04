@@ -1,3 +1,4 @@
+ahc.class
 triggerbot
 killaura
 selfdestruct
