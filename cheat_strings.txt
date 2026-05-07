@@ -593,3 +593,14 @@ aim assist
 ａｉｍ‧ａｓｓｉｓｔ
 pedroisgay
 krloader
+pulse client
+pulseclient
+nicotineclient
+nicotine client
+crystal attacker
+anchor placer
+anchor exploder
+crystalattacker
+anchorplacer
+anchorexploder
+obitrap
